@@ -286,3 +286,5 @@ def mapasPerfil(request):
 			'erro': 1,
 		}
 		return JsonResponse(data)
+def pontoInicial(request):
+    return render(request, 'MapFindIt/pontoInicial.html')
